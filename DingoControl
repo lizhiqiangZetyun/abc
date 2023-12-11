@@ -7,7 +7,7 @@ USER=$(grep "^dingo_user" group_vars/all/_shared.yml | cut -d "=" -f 2 | awk '{p
 echo "INSTALLER_PATH: ${INSTALLER_PATH}"
 echo "USER: ${USER}"
 
-
+# abcabc
 
 function help() {
   echo "Usage: Dingocontrol.sh [OPTION]..."
